@@ -827,7 +827,18 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.text 
+{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#auteur
+{
+    font-size: 13px;
 }
 
 @media (max-width: 1024px) {
