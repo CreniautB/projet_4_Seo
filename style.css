@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -698,6 +699,10 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+.cta-hero:focus
+{
+    background-color: red;
+}
 
 .social {
     max-width: 400px;
@@ -1039,4 +1044,14 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+.linkImg:focus
+{
+    border: 2px solid black;
+}
+*:focus 
+{
+    transform: 200%!important;  
 }
