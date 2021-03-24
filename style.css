@@ -50,7 +50,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 20px;
 }
 
 .bloc-sm {
@@ -729,6 +729,11 @@ h3 {
 
 h1 {
     color: #333333!important;
+}
+
+h2 
+{
+    margin-bottom: 1em;
 }
 
 h4 {
