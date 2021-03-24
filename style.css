@@ -11,7 +11,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -454,16 +453,6 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
@@ -699,10 +688,7 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-.cta-hero:focus
-{
-    background-color: red;
-}
+
 
 .social {
     max-width: 400px;
@@ -844,6 +830,13 @@ h4 {
 #auteur
 {
     font-size: 13px;
+}
+
+*:focus
+{
+ 
+    outline: auto;
+
 }
 
 @media (max-width: 1024px) {
